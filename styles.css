@@ -1,0 +1,97 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins'
+}
+body {
+    background-image: linear-gradient(to top, #000000 0%, #082f49 100%);
+    
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+   
+    
+}
+
+.container {
+    max-width: fit-content;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em 2em;
+    border-radius: 2em;
+    border: 1px solid white;
+    
+    
+    
+}
+
+.heading {
+    font-size: 3rem;
+    font-weight:bolder;
+    
+}
+.head2 {
+    color: blueviolet;
+    font-weight:600;
+    font-size: 2rem;
+  
+    padding: 5px 5px;
+    
+
+}
+
+.choices{
+    display: flex;
+    gap: 1em;
+    
+    
+}
+
+.choices button{
+    background-color: whitesmoke;
+    font-size: 2.5rem;
+    width: 3em;
+    padding: 1px;
+    border-radius: 0.5em;
+    border: 3px solid black;
+    transition: 0.3s ease-in-out;
+    
+    cursor: pointer;
+}
+
+.choices button:hover {
+    border: 3px solid gold;
+    background-color: aliceblue;
+    transform: scale(1.04);  
+}
+
+.player,.computer {
+    font-size: 2em;
+   
+}
+
+.result {
+    margin-top: 20px;
+    background-color: whitesmoke;
+    font-size: 2.5em;
+    color: blueviolet;
+    
+    padding: 0.5rem;
+    border-radius: 0.5em;
+    border: 3px solid wheat;
+}
+
+.result:hover {
+    border: 3px solid black;
+    background-color: aliceblue;
+    transform: scale(1.04);  
+    transition: 0.3s ease-out;
+}
