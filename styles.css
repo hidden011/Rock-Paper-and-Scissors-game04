@@ -1,6 +1,6 @@
 @media (max-width: 600px) {
     .container {
-        padding: 2em 1em;
+        padding: 2em 1.5em;
         /* Reduce padding for smaller screens */
     }
 
@@ -20,9 +20,9 @@
     }
 
     .choices button {
-        font-size: 1.5rem;
+        font-size: 1rem;
         /* Reduce button font size */
-        width: 2.5em;
+        width: 1.5em;
         /* Make buttons slightly smaller */
     }
 
