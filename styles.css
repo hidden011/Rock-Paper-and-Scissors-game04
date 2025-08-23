@@ -1,4 +1,42 @@
+@media (max-width: 600px) {
+    .container {
+        padding: 2em 1em;
+        /* Reduce padding for smaller screens */
+    }
 
+    .heading {
+        font-size: 2rem;
+        /* Reduce font size for main heading */
+    }
+
+    .head2 {
+        font-size: 1.5rem;
+        /* Reduce font size for sub-heading */
+    }
+
+    .choices {
+        gap: 0.5em;
+        /* Reduce gap between buttons */
+    }
+
+    .choices button {
+        font-size: 1.5rem;
+        /* Reduce button font size */
+        width: 2.5em;
+        /* Make buttons slightly smaller */
+    }
+
+    .player, .computer {
+        font-size: 1.5em;
+        /* Reduce font size for player/computer text */
+    }
+
+    .result {
+        font-size: 1.5em;
+        /* Reduce font size for the result text */
+        padding: 0.25rem;
+    }
+}
 
 *{
     margin: 0;
@@ -94,4 +132,5 @@ body {
     background-color: aliceblue;
     transform: scale(1.04);  
     transition: 0.3s ease-out;
+
 }
