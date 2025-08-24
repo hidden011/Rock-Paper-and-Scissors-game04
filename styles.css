@@ -1,42 +1,4 @@
-@media (max-width: 600px) {
-    .container {
-        padding: 2em 1.5em;
-        /* Reduce padding for smaller screens */
-    }
 
-    .heading {
-        font-size: 2rem;
-        /* Reduce font size for main heading */
-    }
-
-    .head2 {
-        font-size: 1.5rem;
-        /* Reduce font size for sub-heading */
-    }
-
-    .choices {
-        gap: 0.5em;
-        /* Reduce gap between buttons */
-    }
-
-    .choices button {
-        font-size: 1rem;
-        /* Reduce button font size */
-        width: 1.5em;
-        /* Make buttons slightly smaller */
-    }
-
-    .player, .computer {
-        font-size: 1.5em;
-        /* Reduce font size for player/computer text */
-    }
-
-    .result {
-        font-size: 1.5em;
-        /* Reduce font size for the result text */
-        padding: 0.25rem;
-    }
-}
 
 *{
     margin: 0;
@@ -91,6 +53,7 @@ body {
     gap: 1em;
     
     
+    
 }
 
 .choices button{
@@ -101,6 +64,7 @@ body {
     border-radius: 0.5em;
     border: 3px solid black;
     transition: 0.3s ease-in-out;
+    font-weight: bolder;
     
     cursor: pointer;
 }
@@ -111,10 +75,15 @@ body {
     transform: scale(1.04);  
 }
 
-.player,.computer {
+.player,.computer{
+    margin-top: 20px;
     font-size: 2em;
-   
+    background-image: linear-gradient(to top, #000000 0%, #082f49 100%);
+    border-radius: 0.3em;
+    padding: 7px;
+    color: whitesmoke;
 }
+
 
 .result {
     margin-top: 20px;
@@ -125,12 +94,12 @@ body {
     padding: 0.5rem;
     border-radius: 0.5em;
     border: 3px solid wheat;
+    transition: 0.3s ease-in-out;
 }
 
 .result:hover {
     border: 3px solid black;
     background-color: aliceblue;
     transform: scale(1.04);  
-    transition: 0.3s ease-out;
-
+    
 }
